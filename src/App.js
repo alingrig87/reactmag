@@ -33,7 +33,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>React Mag</h1>
-
+        <p>Test</p>
         <SearchBox handleChange={(e) => this.handleChange(e)} />
         <CardList items={filteredItems} />
       </div>
